@@ -23,7 +23,6 @@ public class WebPageTest {
         //FirefoxProfile firefoxProfile = new FirefoxProfile();
         //driver = new FirefoxDriver(ffBinary,firefoxProfile);
         //driver = new FirefoxDriver();
-        //
         File file = new File("C:\\ChromeDriver\\chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
         driver = new ChromeDriver();
